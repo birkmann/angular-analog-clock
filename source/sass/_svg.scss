@@ -1,0 +1,38 @@
+.clock-wrapper {
+
+	width: 50%;
+	float: left;
+	margin: 50px 0;
+	padding: 10px;
+
+	.clock {
+	
+		width: 100%;
+		padding: 15px;
+	
+		.face {
+			fill: #fff;
+			stroke-width: 5px;
+			stroke: #222;
+			stroke-position: inside;
+		}
+		
+		.hour,
+		.min,
+		.sec {
+			fill: #333;
+		}
+	
+		.sec {
+			stroke: #f00;
+		}
+		
+	}
+
+	small {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+
+}
